@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+@-webkit-keyframes change-color {
+    0% {
+      background-color: #000000;
+    }
+    100% {
+      background-color: #242424;
+    }
+  }
+  @keyframes change-color {
+    0% {
+      background-color: #000000;
+    }
+    100% {
+      background-color: #242424;
+    }
+  }
+.body {
+    background-color: #000000;
+}
+a {
+    text-decoration: none;
+}
+.text-center {
+    text-align: center;
+    size: 50px;
+}
+.footer {
+    font-family: "Roboto";
+    font-size: 18px;
+    text-align: bottom;
+}
+
+.personal {
+    border-radius: 20%;
+    align-items: center;
+    margin: 5% 5% 5% 23%;
+}
+div{
+    color: #ffffff;
+}
+
+.centered {
+    position: absolute;
+    font-size: 18px;
+    text-align: center;
+    top: 12%;
+    left: 50%;
+}
+p {
+    text-align: left;
+    margin-right: 10%;
+}
+/*footer*/
+.footer {
+    background-color: #000000;
+    text-align: bottom;
+    color: #ffffff;
+    font-size: 24px;
+
+}
+a {
+    padding: 20px;
+    size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #ffffff;
+}
+
+    .footer .socialmedia {
+        display: flex;
+        align-items: bottom;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 10px;
+
+    }
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    img.personal {
+        align-items: center;
+        flex-direction: row;
+    }
+    .text-center {
+        align-items: flex-end;
+    }
+
+    div.centered {
+        flex-direction: row;
+    }
+    .footer .socialmedia {
+        flex-direction: row;
+    }
+}
+a:hover {
+    -webkit-animation-name: change-color;
+            animation-name: change-color;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    background-color: #242424;
+}
+  
+  a:active {
+      background-color: #242424;
+}
