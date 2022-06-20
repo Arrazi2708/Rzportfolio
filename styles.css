@@ -23,8 +23,13 @@ a {
 }
 .text-center {
     text-align: center;
-    size: 50px;
+    font-size: 50px;
+    margin-top: 20%;
+    padding: 0.5rem 1rem 1rem 0.5rem;
 }
+
+
+
 .footer {
     font-family: "Roboto";
     font-size: 18px;
@@ -34,22 +39,21 @@ a {
 .personal {
     border-radius: 20%;
     align-items: center;
-    margin: 5% 5% 5% 23%;
+    margin: auto;
 }
 div{
     color: #ffffff;
 }
 
 .centered {
-    position: absolute;
     font-size: 18px;
-    text-align: center;
+    justify-content: center;
     top: 12%;
-    left: 50%;
+
 }
 p {
-    text-align: left;
-    margin-right: 10%;
+    text-align: center;
+
 }
 /*footer*/
 .footer {
@@ -74,25 +78,9 @@ a {
         align-items: bottom;
         justify-content: center;
         margin-left: 0px;
-        margin-top: 10px;
+        margin-top: 30%;
 
     }
-@media screen and (max-width: 900px) and (min-width: 600px) {
-    img.personal {
-        align-items: center;
-        flex-direction: row;
-    }
-    .text-center {
-        align-items: flex-end;
-    }
-
-    div.centered {
-        flex-direction: row;
-    }
-    .footer .socialmedia {
-        flex-direction: row;
-    }
-}
 a:hover {
     -webkit-animation-name: change-color;
             animation-name: change-color;
